@@ -311,7 +311,7 @@ p {
   height: 505px;
   background: url(./img/cameraman.jpg) center center / cover no-repeat;
   margin-top: -121px;
-  margin-bottom: 150px;
+  margin-bottom: 119px;
 }
 
 .about__desc {
@@ -402,11 +402,11 @@ p {
 
 .footer {
   border-top: 1px solid #454545;
+  padding: 27px 0px;
 }
 
 .header--footer {
   margin-bottom: 0;
-  height: 146px;
 }
 
 .menu__list--footer {
