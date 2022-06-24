@@ -19,10 +19,7 @@
   align-items: center;
   justify-content: center;
   filter: grayscale(100%);
-}
-
-.partners__link:nth-child(4n + 1) {
-  justify-content: start;
+  margin-bottom: 9px;
 }
 
 .partners__link:hover {
