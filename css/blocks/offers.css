@@ -1,0 +1,58 @@
+.offers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 87px;
+}
+
+.offers__item {
+  min-height: 476px;
+  width: calc(100% / 3 - 18px);
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.offers__item:last-child {
+  margin: 0px;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+}
+
+.offers__header {
+  min-height: 116px;
+  margin-bottom: 1px;
+}
+
+.offers__header-img {
+  padding-top: 39px;
+  padding-left: 32px;
+}
+
+.offers__content {
+  color: #000000;
+  padding: 23px 24px;
+}
+
+.offers__title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 17px;
+}
+
+.offers__desc {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 23px;
+}
+
+.offers__desc-people {
+  margin-right: 10px;
+}
+
+.offers__text {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 32px;
+}

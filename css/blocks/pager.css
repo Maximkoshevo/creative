@@ -1,0 +1,40 @@
+.pager {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pager__display {
+  margin-right: 10px;
+}
+
+.pager__list {
+  display: flex;
+  align-items: center;
+}
+
+.pager__item {
+  text-align: center;
+  margin-right: 26px;
+}
+
+.pager__item:last-child {
+  margin-right: 0;
+}
+
+.pager__item--active .pager__link {
+  background: #FF5500;
+  border-radius: 35px;
+  padding: 5px 11px;
+}
+
+.pager__link {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+}
+
+.pager__services {
+  margin-right: 193px;
+}

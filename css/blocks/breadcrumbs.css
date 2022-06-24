@@ -1,0 +1,34 @@
+.bredcrumbs__list {
+  display: flex;
+  align-items: center;
+}
+
+.bredcrumbs__item {
+  display: flex;
+  align-items: center;
+  padding-left: 2px;
+}
+
+.bredcrumbs__item:after {
+  padding-left: 2px;
+  content: "/";
+}
+
+.bredcrumbs__item:first-child {
+  padding-left: 0;
+}
+
+.bredcrumbs__item:last-child:after {
+  display: none;
+}
+
+.bredcrumbs__item--active .bredcrumbs__link {
+  color: #9A9A9A;
+  font-style: 700;
+}
+
+.bredcrumbs__link {
+  color: #9A9A9A;
+  font-size: 14px;
+  font-style: 400;
+}
