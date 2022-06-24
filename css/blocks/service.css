@@ -3,8 +3,8 @@
 }
 
 .services__img {
-  width: 31%;
-  margin-right: 4%;
+  width: 40%;
+  margin-right: 5.5%;
 }
 
 .service__content {
@@ -12,17 +12,14 @@
 }
 
 .service__title {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 700;
   color: #000000;
   margin-top: 10px;
-  margin-bottom: 21px;
+  margin-bottom: 17px;
 }
 
 .service__desc {
-  line-height: 1.7;
-  font-size: 12px;
-  font-weight: 400;
-  width: 508px;
-  margin-bottom: 50px;
+  line-height: 1.9;
+  margin-bottom: 78px;
 }
