@@ -5,11 +5,11 @@
 }
 
 .pager__display {
-  margin-right: 10px;
+  margin-right: 24px;
 }
 
 .pager__services .pager__display {
-  margin-right: 55px;
+  margin-right: 36px;
 }
 
 .pager__list {
@@ -20,6 +20,10 @@
 .pager__item {
   text-align: center;
   margin-right: 26px;
+}
+
+.pager__item:nth-child(1) {
+  margin-right: 16px;
 }
 
 .pager__item:last-child {
