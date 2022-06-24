@@ -4,7 +4,7 @@
 }
 
 .partners__item {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .partners__item:nth-child(4n + 1) {
@@ -19,6 +19,10 @@
   align-items: center;
   justify-content: center;
   filter: grayscale(100%);
+}
+
+.partners__link:nth-child(4n + 1) {
+  justify-content: start;
 }
 
 .partners__link:hover {
