@@ -34,7 +34,7 @@
   flex: 1;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 26px;
+  margin-bottom: 17px;
 }
 
 .form__controls-title {
@@ -78,5 +78,5 @@
 .form__btns {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 33px;
+  margin-bottom: 42px;
 }
