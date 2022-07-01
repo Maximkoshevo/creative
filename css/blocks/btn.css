@@ -33,6 +33,7 @@
 .btn--color--gray {
   background: #8E8E8E;
   color: #FFFFFF;
+  padding: 18px 44px;
 }
 
 .btn--color--gray:hover {
@@ -42,4 +43,5 @@
 .btn--color--orange {
   background: #FF5500;
   color: #FFFFFF;
+  padding: 18px 44px;
 }
