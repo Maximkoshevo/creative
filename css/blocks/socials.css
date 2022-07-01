@@ -19,36 +19,173 @@
   height: 36px;
   width: 36px;
   background: center center no-repeat;
+  position: relative;
 }
 
-.social__item--icon--telegram .socials__link {
+.social__item--icon--telegram .socials__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px; 
+  height: 36px;
+  background: url("../../img/sprites.png") -290px -10px;
+}
+
+.social__item--icon--telegram .socials__link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px; 
+  height: 36px;
+  background: url("../../img/sprites.png") -234px -10px;
+  opacity: 0;
+}
+
+.social__item--icon--telegram .socials__link:hover:before {
+  opacity: 1;
+  transition: .5s;
+}
+
+.social__item--icon--telegram .socials__link:hover:after {
+  opacity: 0;
+}
+
+.social__item--icon--vk .socials__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px; 
+  height: 36px;
+  background: url("../../img/sprites.png") -346px -10px;
+}
+
+.social__item--icon--vk .socials__link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px; 
+  height: 36px;
+  background: url("../../img/sprites.png") -402px -10px;
+  opacity: 0;
+}
+
+.social__item--icon--vk .socials__link:hover:before {
+  opacity: 1;
+  transition: .5s;
+}
+
+.social__item--icon--vk .socials__link:hover:after {
+  opacity: 0;
+}
+
+.social__item--icon--facebook .socials__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px; 
+  height: 36px;
+  background: url("../../img/sprites.png") -10px -10px;
+}
+
+.social__item--icon--facebook .socials__link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px; 
+  height: 36px;
+  background: url("../../img/sprites.png") -66px -10px;
+  opacity: 0;
+}
+
+.social__item--icon--facebook .socials__link:hover:before {
+  opacity: 1;
+  transition: .5s;
+}
+
+.social__item--icon--facebook .socials__link:hover:after {
+  opacity: 0;
+}
+
+.social__item--icon--instagram .socials__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px; 
+  height: 36px;
+  background: url("../../img/sprites.png") -122px -10px;
+}
+
+.social__item--icon--instagram .socials__link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px; 
+  height: 36px;
+  background: url("../../img/sprites.png") -178px -10px;
+  opacity: 0;
+}
+
+.social__item--icon--instagram .socials__link:hover:before {
+  opacity: 1;
+  transition: .5s;
+}
+
+.social__item--icon--instagram .socials__link:hover:after {
+  opacity: 0;
+}
+
+/* .social__item--icon--telegram .socials__link {
   background-image: url(../../img/tlg.png);
 }
 
 .social__item--icon--telegram .socials__link:hover {
   background-image: url(../../img/tlg-hover.png);
-}
+} */
 
-.social__item--icon--vk .socials__link {
+/* .social__item--icon--vk .socials__link {
   background-image: url(../../img/vk.png);
 }
 
 .social__item--icon--vk .socials__link:hover {
   background-image: url(../../img/vk-hover.png);
-}
+} */
 
-.social__item--icon--facebook .socials__link {
+/* .social__item--icon--facebook .socials__link {
   background-image: url(../../img/fcb.png);
 }
 
 .social__item--icon--facebook .socials__link:hover {
   background-image: url(../../img/fcb-hover.png);
-}
+} */
 
-.social__item--icon--instagram .socials__link {
+/* .social__item--icon--instagram .socials__link {
   background-image: url(../../img/inst.png);
 }
 
 .social__item--icon--instagram .socials__link:hover {
   background-image: url(../../img/inst-hover.png);
-}
+} */

@@ -19,7 +19,11 @@
 @import url(./blocks/service.css);
 @import url(./blocks/inner-section.css);
 @import url(./blocks/partners.css);
-@import url();
+@import url(./blocks/reviews.css);
+@import url(./blocks/separator.css);
+@import url(./blocks/form.css);
+@import url(./blocks/welcome.css);
+@import url(./blocks/dropdown.css);
 
 
 
